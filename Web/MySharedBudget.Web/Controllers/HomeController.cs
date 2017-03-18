@@ -2,7 +2,9 @@
 {
     using System.Web.Mvc;
 
-    public class HomeController : BaseController
+    using Base;
+
+    public class HomeController : BaseDataController
     {
         public ActionResult Index()
         {

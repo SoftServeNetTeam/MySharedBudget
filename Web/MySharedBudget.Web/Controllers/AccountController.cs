@@ -9,6 +9,7 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
 
+    using Base;
     using MySharedBudget.Models;
     using ViewModels.Account;
 
