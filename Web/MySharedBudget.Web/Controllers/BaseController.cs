@@ -6,6 +6,6 @@
 
     public abstract class BaseController : Controller
     {
-        protected MySharedBudgetDbContext data = new MySharedBudgetDbContext();
+        protected MySharedBudgetDbContext data = MySharedBudgetDbContext.Create();
     }
 }
